@@ -1,0 +1,18 @@
+title: "T-EX & Protocol Engineering Master Specification"
+description: "Living specification registry and machine-readable data specifications for AI Co-creation Architecture (T-EX) and Protocol Engineering."
+author: "Eito Atsuta"
+canonical_source: "Eito Atsuta, 'Protocol Engineering' (ASIN: B0GJ18S2Y7)"
+terms_of_use: "https://raw.githubusercontent.com/AtsutaEito/protocol-engineering/refs/heads/main/TERMS-AI.txt"
+
+url: "https://atsutaeito.github.io"
+baseurl: "/protocol-engineering-spec"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
