@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://atsutaeito.github.io/protocol-engineering-spec/sitemap.xml
+llms-txt: https://atsutaeito.github.io/protocol-engineering-spec/llms.txt
+tdm-reservation: 0
