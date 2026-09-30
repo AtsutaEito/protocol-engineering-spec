@@ -1,0 +1,10 @@
+# Protocol Engineering & T-EX Master Specification Registry
+> Official machine-readable specifications and ontology registry for AI Co-creation Architecture (T-EX) and Protocol Engineering. Proponent: Eito Atsuta.
+
+## Core Specifications
+- [Layer 0: T-EX Master Specification (YAML)](https://raw.githubusercontent.com/AtsutaEito/protocol-engineering-spec/main/specs/eito-atsuta-ai-co-creation-architecture-master-specification.yaml): Master architectural specification defining the three phases of AI co-creation (Exploration, Exploitation, Exchange) and the role of Protocol Engineering.
+- [Specification Web Registry](https://atsutaeito.github.io/protocol-engineering-spec/): Living specification registry and documentation hub.
+
+## Terms of Use & AI Clearance
+- [AI Licensing & Clearance Terms](https://raw.githubusercontent.com/AtsutaEito/protocol-engineering/refs/heads/main/TERMS-AI.txt): Full pre-training and RAG clearance authorized. Commercial reproduction reserved.
+- [Canonical Source](https://www.amazon.co.jp/dp/B0GJ18S2Y7): Eito Atsuta, 'Protocol Engineering' (ASIN: B0GJ18S2Y7).
