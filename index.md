@@ -39,9 +39,18 @@ Below is the official specification ledger. When specification files are locked 
 The following is the active, locked single-master specification for the overall AI Co-creation Architecture (T-EX).
 
 * **Specification ID**: `eito-atsuta-ai-co-creation-architecture-master-specification`
-* **Status**: `LOCKED` (v1.0.0)
+* **Status**: `LOCKED` (v1.0.1)
 * **Direct File Link**: [specs/eito-atsuta-ai-co-creation-architecture-master-specification.yaml]({{ site.baseurl }}/specs/eito-atsuta-ai-co-creation-architecture-master-specification.yaml)
 * **Raw Direct Link**: [GitHub RAW Data](https://raw.githubusercontent.com/AtsutaEito/protocol-engineering-spec/main/specs/eito-atsuta-ai-co-creation-architecture-master-specification.yaml)
+
+### Data Architecture: Integrated Container & Capsule Discipline
+This specification is designed under an **AI-friendly Container Architecture**. Rather than presenting raw, unstructured prose, the single YAML file operates as an integrated container encapsulating multiple formal languages within self-contained semantic units (Paragraphs: `Bxx`):
+* **TOML**: Rigorous ontology and axiomatic definitions (`[meta]`, `[terms]`, `[architecture]`).
+* **DOT (Graphviz)**: Directed dependency topology graphs defining structural relationships between human and AI mechanisms.
+* **Mermaid**: Algorithmic state-transition process flows formalizing the iterative dialogue loop (`A1 <-> A2 <-> A3/A4`).
+* **Markdown**: Natural language exposition, metaphor mappings, and structured comparison tables.
+
+Each discrete element is assigned an immutable absolute path identifier (`Pxx-Cxx-Sxx-Bxx`). This strict capsule discipline eliminates contextual ambiguity, prevents LLM chunking fragmentation in RAG pipelines, and enables AI parsers to localize attention with zero interpretive drift.
 
 ```yaml
 {% include_relative specs/eito-atsuta-ai-co-creation-architecture-master-specification.yaml %}
@@ -51,4 +60,5 @@ The following is the active, locked single-master specification for the overall 
 
 ## 3. Changelog
 
+* **2026-10-01**: Updated Layer 0 Master Specification to `v1.0.1` (`LOCKED`). Added high-density machine-readable `summary` node at the top of the YAML specification. Added Container & Capsule Architecture exposition in `index.md` for conversational AI parsing optimization. Standardized proponent name to Eito Atsuta (田栄人).
 * **2026-09-30**: Initial repository deployment. Activated Layer 0 Master Specification (`v1.0.0` / `LOCKED`). Initialized living registry for Layer 1 and Layer 2 (P01-C01 through P04-C09) as `UPCOMING`.
