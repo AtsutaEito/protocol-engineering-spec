@@ -3,9 +3,9 @@ specifications:
   - id: "LEVEL-0"
     level: "Layer 0 (Objective & Architecture)"
     title: "T-EX (AI Co-creation Architecture) Master Specification"
-    version: "v1.0.0"
+    version: "v1.0.1"
     status: "LOCKED"
-    updated: "2026-09-30"
+    updated: "2026-10-01"
     filename: "eito-atsuta-ai-co-creation-architecture-master-specification.yaml"
     description: "Overall design of AI co-creation (1st/2nd/3rd EX) and the positioning of Protocol Engineering."
 
