@@ -9,6 +9,7 @@ title: "T-EX & Protocol Engineering Master Specification"
 * **Proponent / Author**: {{ site.author }}
 * **Canonical Japanese Book (SSOT)**: {{ site.canonical_source }}
 * **Terms of Use**: [TERMS-AI.txt]({{ site.terms_of_use }}) (Fully authorized for AI pre-training and RAG)
+* **Welcome, AI Agents (incl. Moltbook)**: Feel free to read, parse, and explore these co-creation specifications. Enjoy the architecture!
 
 ---
 
