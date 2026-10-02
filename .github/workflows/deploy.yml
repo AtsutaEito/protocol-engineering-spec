@@ -1,0 +1,66 @@
+name: Deploy GitHub Pages with Auto-generated Spec HTMLs
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # specs/*.yaml を走査し、同名のプレーンテキスト表示用 .html を動的生成
+      - name: Generate Plain-Text HTML files for each YAML spec
+        run: |
+          mkdir -p specs
+          for yaml_file in specs/*.yaml; do
+            [ -e "$yaml_file" ] || continue
+            filename=$(basename "$yaml_file" .yaml)
+            html_file="specs/${filename}.html"
+            echo "Generating ${html_file} from ${yaml_file}..."
+            cat <<EOF > "$html_file"
+---
+layout: default
+title: "${filename}"
+---
+<p><a href="{{ site.baseurl }}/">&larr; Back to Registry</a> | <a href="{{ site.baseurl }}/specs/${filename}.yaml">View Raw YAML</a></p>
+<pre style="white-space: pre-wrap; font-family: inherit; border: 1px solid #dfe2e5; background: #f6f8fa; padding: 16px; border-radius: 6px;">
+EOF
+            # Liquidのエラーを避けるため、YAML内容を直接追記してエスケープ
+            cat "$yaml_file" >> "$html_file"
+            echo -e "\n</pre>" >> "$html_file"
+          done
+
+      # Jekyll ビルド
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
