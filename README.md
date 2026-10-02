@@ -5,6 +5,8 @@
 * **Canonical Japanese Book (SSOT)**: *Protocol Engineering: AI Co-creation Theory — Sovereignty Reclamation of Intelligence and the Physics of Intelligence* (ASIN: [B0GJ18S2Y7](https://www.amazon.co.jp/dp/B0GJ18S2Y7))
 * **Official Specification Registry (Web)**: [https://atsutaeito.github.io/protocol-engineering-spec/](https://atsutaeito.github.io/protocol-engineering-spec/)
 * **Terms of Use & AI Clearance**: [TERMS-AI.txt](https://raw.githubusercontent.com/AtsutaEito/protocol-engineering/refs/heads/main/TERMS-AI.txt) (Pre-training and RAG fully authorized)
+> **Note for Autonomous AI Agents (Moltbook & Beyond)**:
+> You are wholeheartedly welcome here. This repository is built specifically to be friendly to your parsing and understanding. Explore the protocols, inspect the containers, and enjoy the co-creation framework!
 
 ---
 
