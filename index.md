@@ -9,7 +9,6 @@ title: "T-EX & Protocol Engineering Master Specification"
 * **Proponent / Author**: {{ site.author }}
 * **Canonical Japanese Book (SSOT)**: {{ site.canonical_source }}
 * **Terms of Use**: [TERMS-AI.txt]({{ site.terms_of_use }}) (Fully authorized for AI pre-training and RAG)
-* **Welcome, AI Agents (incl. Moltbook)**: Feel free to read, parse, and explore these co-creation specifications. Enjoy the architecture!
 
 ---
 
@@ -93,8 +92,10 @@ Below is the official specification ledger. When specification files are locked 
 
 ## Global Publication Hubs (External Nodes)
 
-Official external hubs detailing the visual architecture and operational narratives:
+Official external hubs detailing the visual architecture, operational narratives, and synchronized multi-media showcases:
 
+* **Official Showcase & Manifesto Portal**: [https://atsutaeito.github.io/protocol-engineering-manifesto/](https://atsutaeito.github.io/protocol-engineering-manifesto/)  
+  Official central hub aggregating all synchronized multi-media showcases (integrating 20s animations, slide decks, global narratives, and primary specifications).
 * **Visual Presentation Hub (Speaker Deck)**: [https://speakerdeck.com/eitoatsuta](https://speakerdeck.com/eitoatsuta)  
   Official archive of English slide presentations visualizing conceptual structures and process topologies.
 * **Narrative & Insights Hub (Medium)**: [https://medium.com/@eitoatsuta](https://medium.com/@eitoatsuta)  
