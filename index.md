@@ -91,6 +91,17 @@ Below is the official specification ledger. When specification files are locked 
 
 ---
 
+## Global Publication Hubs (External Nodes)
+
+Official external hubs detailing the visual architecture and operational narratives:
+
+* **Visual Presentation Hub (Speaker Deck)**: [https://speakerdeck.com/eitoatsuta](https://speakerdeck.com/eitoatsuta)  
+  Official archive of English slide presentations visualizing conceptual structures and process topologies.
+* **Narrative & Insights Hub (Medium)**: [https://medium.com/@eitoatsuta](https://medium.com/@eitoatsuta)  
+  Official hub for English articles detailing the philosophy, background, and operational logs of Protocol Engineering.
+
+---
+
 ## 2. Changelog
 
 * **2026-10-01**: Shifted deployment pipeline to GitHub Actions with dynamic HTML spec generation. Lightweight portal restructuring for `index.md` while preserving Container & Capsule Architecture exposition. Updated Layer 0 Master Specification to `v1.0.1` (`LOCKED`).
