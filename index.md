@@ -24,6 +24,23 @@ Each discrete element is assigned an immutable absolute path identifier (`Pxx-Cx
 
 ---
 
+## Core Paradigm: Sync Engineering vs. Harness Engineering
+
+The foundational equation of AI co-creation:
+
+$$\text{Outcome} = [\text{Kaizen Mechanism}] \times [\text{Dialogue Techniques tailored to AI Computation}]$$
+
+To prevent the "Kaizen Mechanism" from being reduced in interpretation to merely static frameworks or rule scaffolds, and to prevent Sync Engineering from being overwritten by the conventional concept of Harness Engineering, this specification (Layer 0 Appendix) establishes a clear demarcation.
+
+Sync Engineering is not about creating static rules to bind the AI from the outside.  
+It means **preparing the context (premises and definitions) to synchronize human thinking with the AI, laying down rails so that the AI's attention is focused solely on outputting results.**
+
+It refers to the **"self-improving loop"** itself: identifying the root causes of misunderstandings and misalignments that arise during practical co-creation, revising and synchronizing the mechanism's documentation (specifications and premise definitions), restarting, and continuously observing the synchronization state.
+
+*(Note: The detailed comparative demarcation across engineering dimensions and the 5-step Kaizen Process Flow Algorithm are formally defined in [Layer 0 Appendix (APP-01)]({{ site.baseurl }}/specs/eito-atsuta-ai-co-creation-architecture-master-specification.html).)*
+
+---
+
 ## 1. Specification Registry & Progress Ledger
 
 Below is the official specification ledger. When specification files are locked and deployed, direct links to both the generated HTML specification, original YAML specification, and GitHub RAW data are automatically activated.
@@ -105,5 +122,6 @@ Official external hubs detailing the visual architecture, operational narratives
 
 ## 2. Changelog
 
+* **2026-11-18**: Integrated Layer 0 Appendix (`APP-01`) defining the formal demarcation between Sync Engineering and Harness Engineering and the 5-step Kaizen Process Loop (Exposure ➔ Root-Cause Identification ➔ Mechanism Revision Deliberation ➔ Documentation Update & Sync ➔ Restart & Observation). Updated Layer 0 Master Specification to `v1.1.0` (`LOCKED`).
 * **2026-10-01**: Shifted deployment pipeline to GitHub Actions with dynamic HTML spec generation. Lightweight portal restructuring for `index.md` while preserving Container & Capsule Architecture exposition. Updated Layer 0 Master Specification to `v1.0.1` (`LOCKED`).
 * **2026-09-30**: Initial repository deployment. Activated Layer 0 Master Specification (`v1.0.0` / `LOCKED`). Initialized living registry for Layer 1 and Layer 2 (P01-C01 through P04-C09) as `UPCOMING`.
